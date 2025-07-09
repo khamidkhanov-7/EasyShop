@@ -13,6 +13,9 @@ class UserLogin(BaseModel):
     username: str
     password: str
 
+class UserGetRequest(BaseModel):
+    current_user_id: int
+    id: int
 
 class ProductCreate(BaseModel):
     name: str
