@@ -1,39 +1,27 @@
-# 🌐 Khasanbayev7 Personal Website
+# 🛍️ EasyShop Backend
 
-Welcome to the official repository for **Khasanbayev7** – my personal website and digital portfolio.  
-A modern, minimalistic site to showcase my projects, share my thoughts, and introduce who I am.
+Welcome to the official backend repository for **EasyShop**, a modern and scalable e-commerce backend built with **Flask** and **Tortoise ORM**. This project is designed to be simple for beginners and powerful for professionals.
 
 ---
 
 ## ✨ Features
 
-- 📝 Personal blog & articles
-- 💼 Portfolio with selected projects
-- 🙋 About me section
-- 📫 Contact information & social links
-- 📱 Responsive and clean design
-- ⚡ Fast performance & SEO friendly
+- 🔐 User & Admin Registration
+- 🔑 Secure Login with Hashed Passwords
+- 🙋 Get Authenticated User Info
+- 🧑‍💻 Admin-Only: View All Users
+- 📦 Ready to extend with Products, Orders, Payments
+- ✅ Asynchronous database support using Tortoise ORM
+- 📁 Modular, clean code structure
 
 ---
 
 ## ⚙️ Tech Stack
 
-| Layer         | Technology                |
-|---------------|---------------------------|
-| Framework     | Astro / React / Vanilla JS|
-| Styling       | CSS / Tailwind CSS        |
-| Hosting       | GitHub Pages / Vercel     |
-| Content       | Markdown / MDX            |
-| Tools         | VS Code, Git, npm         |
-
----
-
-## 🚀 Getting Started
-
-To run the project locally:
-
-```bash
-git clone https://github.com/yourusername/Khasanbayev7.git
-cd Khasanbayev7
-npm install
-npm run dev
+| Layer         | Technology         |
+|---------------|--------------------|
+| Backend       | Python 3, Flask    |
+| ORM           | Tortoise ORM       |
+| DB            | SQLite (default)   |
+| Auth          | Werkzeug security  |
+| Structure     | Modular Python app |
